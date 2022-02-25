@@ -20,7 +20,8 @@
         }
     }
     $film1= new Movie("ritorno al futuro", 1987, "fantasy","4/5");
-    
     $film2=new Movie("guerre stellari",1978,"avventura", "5/5");
-    $film1->printDate($film2->title,$film2->year,$film2->genre,$film2->rate);
+    $arrayFilm=[];
+    $arrayFilm[]= $film1->printDate($film1->title,$film1->year,$film1->genre,$film1->rate);
+    $arrayFilm[]= $film2->printDate($film2->title,$film2->year,$film2->genre,$film2->rate);
 ?>
