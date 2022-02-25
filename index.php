@@ -1,9 +1,10 @@
-<?php 
-    require_once __DIR__ . './Movie.php';
+<?php
+require_once __DIR__ . './Movie.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,22 +13,21 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="container">
-            <div class="row">
-                <?php foreach ($arrayFilm as $film){ ?>
+            <div class="row justify-content-center">
+                <?php foreach ($arrayFilm as $film) { ?>
                     <div class="col-lg-5 d-flex mt-5">
                         <div class="cards">
                             <?php echo $film ?>
                         </div>
                     </div>
-              <?php  } ?>
-                    
-                    
-                
+                <?php  } ?>
             </div>
         </div>
     </div>
 </body>
+
 </html>
