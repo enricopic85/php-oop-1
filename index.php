@@ -1,5 +1,5 @@
 <?php 
-    require_once __DIR__ . './class.php';
+    require_once __DIR__ . './Movie.php';
 ?>
 
 <!DOCTYPE html>
